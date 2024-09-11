@@ -1,6 +1,7 @@
 <!-- pages/[id].vue -->
 <template>
     <div>
+      <h1>Post Detail {{ useRoute().params.isMobile }}:</h1>
       <h1>{{ post.title }}</h1>
       <p>{{ post.body }}</p>
     </div>
